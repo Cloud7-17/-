@@ -1,0 +1,14 @@
+.zhihui{
+    background-color: #e2f0d9;
+    color:#385723;
+    border:none;
+    border-radius: 15px;
+    padding:20px;
+    margin:0 40px 30px 40px;
+    text-align: right;
+    display: inline-block;
+}
+
+.zhihui::first-line{
+    text-align: center;
+}

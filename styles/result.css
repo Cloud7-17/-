@@ -1,0 +1,11 @@
+.result-button{
+    background-color: #dae3f3;
+    color:#4472c4;
+    border-color:#4472c4;
+    font-size:54px;
+    padding:40px 50px 40px 50px;
+}
+
+.result-button:hover{
+    background-color: #9591e8;
+}

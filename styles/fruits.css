@@ -1,0 +1,45 @@
+.fruit-ask{
+    font-size: 24px;
+    font-family: "SimSun", "宋体", serif;
+    margin:10px auto 10px;
+}
+
+.fruit-window {
+    display: flex;
+}
+
+.fruit-content, .fruit-choose {
+    flex: 1; /* 使左右两侧各占一半宽度 */
+    padding: 20px; /* 添加一些内边距 */
+}
+
+.no-button{
+    background-color: #e7e6e6;
+    color:#000000;
+    border-color:#000000;
+    cursor:not-allowed;
+}
+
+.no-button:hover{
+    background-color: #e7e6e6;
+}
+
+.submit-button{
+    background-color: #dae3f3;
+    color:#4472c4;
+    border-color:#4472c4;
+}
+
+.submit-button:hover{
+    background-color: #9591e8;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px; /* 限制最大宽度 */
+}
+
+.buttonContainer button {
+    min-width: 100px; /* 为按钮设置最小宽度，确保它们不会在小屏幕上过于紧凑 */
+}
