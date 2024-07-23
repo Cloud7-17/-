@@ -1,0 +1,70 @@
+html{
+  background-color:rgb(183, 247, 250);
+}
+
+body{
+  width:80%;
+  height: auto;
+  margin: 40px auto;
+  text-align:center;
+  background-color:#fff8e5;
+  border:2.5px rgb(0, 0, 0) solid;
+  border-radius: 20px; /* 添加圆角 */
+  position: relative;
+}
+
+body::before{
+  content: "";
+  position: absolute;
+  background-color:#fbe5d6;
+  top: -20px; /* 向外扩展 */
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border:2.5px rgb(0, 0, 0) solid; /* 外层边框 */
+  border-radius: 25px; /* 外层圆角略大于body本身 */
+  z-index: -1;
+  
+}
+
+img{
+  display: block;
+  margin:auto;
+  width:50%;
+}
+
+h1{
+  color:#843c0c; /* 保持文字颜色亮丽 */
+  font-size: 48px;
+  font-family: "华文中宋", "STZhongsong", serif; /* 使用华文中宋，如果没有则回退到系统默认衬线字体 */
+  letter-spacing: 4px; /* 增加字母间距 */
+  font-weight: normal;
+}
+
+p, .fruit-content{
+  font-size: 24px;
+  font-weight:bold;
+  margin:0 30px;
+  font-family: "SimSun", "宋体", serif;
+  line-height: 1.5;
+}
+
+.buttonContainer{
+  text-align: center;
+  margin: 20px auto 20px;
+  padding:20px auto 20px;
+}
+
+button{
+  background-color: #fbe5d6;
+  color: #843c0c;
+  border:2.5px #843c0c solid;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #f4b183;
+}
